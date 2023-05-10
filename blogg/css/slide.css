@@ -1,0 +1,44 @@
+.slider {
+    width: 73%;
+    height: 510px;
+    margin: auto;
+    position: relative;
+  }
+
+  .slider img {
+    width: 72%;
+    height: 500px;
+    margin: auto;
+margin-left: 195px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  /* Detta gör så att bilderna kommer att stackas så att det första lagret kommer att visas/
+  .slider img:first-child {
+    z-index: 1;
+  }
+   / nth-childs selector selectar alla element som är i "nth-child" */
+  .slider img:nth-child(2) {
+    z-index: 0;
+  }
+
+  .Rund-button {
+    text-align: center;
+    position: relative;
+  }
+
+  .prick {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .active,
+  .prick:hover {
+    background-color: #717171;}

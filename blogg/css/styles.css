@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body{
+	background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(174, 220, 224));
+  }
+  li, a, button{
+	font-family: monospace, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+  }
+  header{
+	display: flex;
+	/*Gör så att de 2 ytre länkarna kommer åka åt sidorna medans den i mitten kommer att ha en jämn spacing mellan dessa 2*/
+	justify-content: space-between;
+	/*Tar allt i header och centrerar med varandra*/
+	align-items: center;
+	/*30px mellan 10% på sidorna*/
+	padding: 5px 10%;
+  }
+  .logo{
+	width: 150px;
+	height: 80px;
+	/*Gör så att n'r man hovrar med musen över logan så blir det en cursor*/
+	cursor: pointer;
+  }
+  
+  .link-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  }
+  
+  .link-container a{
+  margin: 0 10px;
+  }
+  
+  .nav__links{
+	list-style: none;
+  }
+  /*Kommer att targeta individuella items*/
+  .navlinks li{
+	display: inline-block;
+	padding: 0px 60px;
+  
+  }
+  
+  .navlinks li a{
+	/*allt, .3s, ease för smooth, 0s för instant*/
+	transform: all 0.3s ease 0s;
+  
+  
+  }
+  .nav__links li a:hover{
+	color: #a5e1f0;
+  }
+  button{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transform: all 0.3s ease 0s;
+  }
+  button:hover{
+	background-color: rgba(0,136,169,0.8);
+  }
+  
+  .Bar{
+	background-image: linear-gradient(to right, rgb(115, 197, 204) , rgb(21, 125, 134));
+	height: 100px;
+  
+  }
+  .Titel{
+	width: 1000px;
+	height: 70px;
+	margin: auto;
+	text-align: center;
+  }
+  .Samman{
+	text-align: center;
+  }
+  .Temp{
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(174, 220, 224));
+	font-family: monospace, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	padding: 5px 3%;
+  }
+  .SlideShow{
+	text-align: center;
+  }
+  
+  .Rubrik{
+	width: 1000px;
+	height: 60px;
+	margin: auto;
+	text-align: center;
+  }
+  .Datum{
+	text-align: center;
+  }
+  .Brödtext{
+	width: 1000px;
+	height: 250px;
+	margin: auto;
+	text-align: center;
+  }
+  .BottomBar{
+	height: 100px;
+	background-color: #4699bc;
+  }
+  h1 {
+	color: darkslategray;
+	font-weight: 500;
+	font-size: 60px;
+	text-decoration: none;
+  }
+  h5{
+	color: darkslategray;
+	font-weight: 500;
+	font-size: 30px;
+	text-decoration: none;
+  }

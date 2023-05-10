@@ -1,0 +1,72 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+
+
+  body {
+      font-family: 'montserrat',sans-serif;
+      height: 80%;
+   background-image: url('bg8.jpg');
+   background-size: 1540px 750px;
+   background-repeat:no-repeat;
+   background-size:cover;
+
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #44558f, #273774); 
+    font-size:2rem;
+    font-family:sans-serif;
+    color: rgb(7, 9, 10);
+  } 
+
+  .bottom{
+    color:#c4c8d7;
+  font-size: 32.5px;
+  font-weight:500;
+  margin: 10px 0px;
+  text-shadow: 2px 5px rgba(0,0,0,0.6);
+  align-items:center;
+    height: 12rem;
+    width: 10rem;
+   background: linear-gradient(180deg, rgba(100, 115, 164, 0.6), rgba(25, 38, 87, 0.9));
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 16px;
+    border:2px solid rgb(14, 43, 1);
+    margin-top: -220px;
+    margin-left: 70px;
+  }
+  .container {
+  color:#c4c8d7;
+  font-size: 32.5px;
+  font-weight: 500;
+  margin: 10px 0px;
+  text-shadow: 2px 5px rgba(0,0,0,0.6);
+  align-items: center;
+    height: 10rem;
+    width: 20rem;
+   background: linear-gradient(180deg, rgba(100, 115, 164, 0.6), rgba(16, 25, 59, 0.9));
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 16px;
+    border: 2px solid rgb(14, 43, 1);
+  } 
+
+  .morpheus-den-gradient{
+    background-color: gray;
+    height: 5.3rem;
+    width: 7rem;
+    text-align:center;
+  }
+
+  .summery{
+    margin: 10px 0px;
+    align-items: center;
+
+  } */
